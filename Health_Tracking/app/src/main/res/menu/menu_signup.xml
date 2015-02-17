@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.seedoo.health_tracking.SignupActivity" >
+    
+    <item
+        android:id="@id/action_login"
+        android:title="@string/action_login"
+        app:showAsAction="never"/>   
+        
+    <item
+        android:id="@+id/action_show_rec"
+        android:title="@string/action_show_rec"
+        app:showAsAction="never"/> 
+        
+    <item
+        android:id="@+id/action_start_service"
+        android:title="@string/action_start_service"
+        app:showAsAction="never"/> 
+        
+    <item
+        android:id="@+id/action_stop_service"
+        android:title="@string/action_stop_service"
+        app:showAsAction="never"/> 
+    
+    <item
+        android:id="@id/action_close"
+        android:title="@string/action_close"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@id/action_settings"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+    
+</menu>

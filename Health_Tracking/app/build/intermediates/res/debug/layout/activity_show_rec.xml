@@ -1,0 +1,128 @@
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"       
+        android:gravity="top"
+        android:orientation="vertical"
+        android:background="@color/SkyBlue"
+        tools:context="com.seedoo.health_tracking.ShowRecActivity" >
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        	<Button
+         	   android:id="@+id/btnLogout"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_alignParentRight="true"
+            	android:layout_alignParentEnd="true"
+            	android:text="@string/action_logout" 
+            	android:visibility="gone" />
+        </RelativeLayout>
+        
+        <View style="@style/Divider" />
+        
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:orientation="horizontal"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	tools:context="com.seedoo.health_tracking.ShowRecActivity">
+            
+	        <TextView
+	            android:id="@+id/textViewForUser"
+	      		android:layout_weight="1"
+	      		android:layout_width="0dp"
+	      		android:layout_height="wrap_content"
+	      		android:text="@string/for_user"
+	      		android:textAppearance="?android:attr/textAppearanceMedium" />
+	        
+	        <Spinner
+	            android:id="@+id/spinnerUserName"
+	            android:layout_weight="2"
+	      		android:layout_width="0dp"
+	      		android:layout_height="wrap_content"
+
+	      		android:layout_marginLeft="10dp"
+      			android:layout_marginStart="10dp"
+	      		android:textAppearance="?android:attr/textAppearanceMedium" />
+	        
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:orientation="horizontal"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content" >
+            
+	        <TextView
+	            
+	      		android:layout_weight="1"
+	      		android:layout_width="0dp"
+	      		android:layout_height="wrap_content"
+
+	      		android:text="@string/start_date"
+	      		android:textAppearance="?android:attr/textAppearanceMedium" />
+	        
+	        <Spinner
+	            android:id="@+id/spinnerStartDate"
+	            android:layout_weight="2"
+	      		android:layout_width="0dp"
+	      		android:layout_height="wrap_content"
+
+	      		android:layout_marginLeft="10dp"
+      			android:layout_marginStart="10dp"
+	      		android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:orientation="horizontal"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content" >
+            
+	        <TextView
+	            
+	      		android:layout_weight="1"
+	      		android:layout_width="0dp"
+	      		android:layout_height="wrap_content"
+
+	      		android:text="@string/end_date"
+	      		android:textAppearance="?android:attr/textAppearanceMedium" />
+	        
+	        <Spinner
+	            android:id="@+id/spinnerEndDate"
+	            android:layout_weight="2"
+	      		android:layout_width="0dp"
+	      		android:layout_height="wrap_content"
+
+	      		android:layout_marginLeft="10dp"
+      			android:layout_marginStart="10dp"
+	      		android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+        
+        <View style="@style/Divider" />
+        
+        <ScrollView
+            android:id="@+id/tableScroll"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+    		android:layout_weight="1"
+    		android:fadeScrollbars="true"
+    		android:isScrollContainer="true" >
+    		    
+    		<TableLayout
+    		    android:id="@+id/tableRecords"
+    		    android:layout_width="match_parent"
+    			android:layout_height="match_parent"
+    			android:layout_marginTop="20dp"
+    			android:background="@color/White"
+    			tools:ignore="UselessParent">
+
+
+    		</TableLayout>
+    	</ScrollView>
+         
+    </LinearLayout>
+    <!-- From: file:/C:/Users/localadmin/AndroidStudioProjects/Health_Tracking/app/src/main/res/layout/activity_show_rec.xml -->

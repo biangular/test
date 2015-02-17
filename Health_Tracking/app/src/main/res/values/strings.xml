@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Health_Tracking</string>
+    <string name="service_name">Monitor Service</string>
+    <string name="login_screen">Welcome Back</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="password_again">Password Again</string>
+    <string name="Login">Login</string>
+    <string name="attempts_left">Attempts Left:</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="welcome_guest">Welcome Guest</string>
+    <string name="empty_string"></string>
+    <string name="action_signup">Sign Up</string>
+    <string name="action_login">Log In</string>
+    <string name="action_logout">Log Out</string>
+    <string name="action_save">Save</string>
+    <string name="action_close">Close</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_start_service">Start Service</string>
+    <string name="action_stop_service">Stop Service</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_show_rec">Records</string>
+    <string name="action_info">Info</string>
+    <string name="action_email_me">Email Me</string>
+    <string name="title_activity_show_rec">Records</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="for_user">For User</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    
+    <string name="record_time">Time</string>
+    <string name="systolic">Systolic</string>
+    <string name="diastolic">Diastolic</string>
+    <string name="heartbeat">Heartbeat</string>
+
+    <string name="email">Email</string>
+</resources>

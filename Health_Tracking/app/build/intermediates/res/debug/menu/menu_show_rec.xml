@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.seedoo.health_tracking.ShowRecActivity" >
+    
+    
+    <item
+        android:id="@+id/action_email_me"
+        android:title="@string/action_email_me"
+        app:showAsAction="never"/>  
+        
+    <item
+        android:id="@+id/action_start_service"
+        android:title="@string/action_start_service"
+        app:showAsAction="never"/> 
+        
+    <item
+        android:id="@+id/action_stop_service"
+        android:title="@string/action_stop_service"
+        app:showAsAction="never"/> 
+          
+    <item
+        android:id="@id/action_close"
+        android:title="@string/action_close"
+        app:showAsAction="never"/>  
+        
+    <item
+        android:id="@id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+
+</menu>
+<!-- From: file:/C:/Users/localadmin/AndroidStudioProjects/Health_Tracking/app/src/main/res/menu/menu_show_rec.xml -->
