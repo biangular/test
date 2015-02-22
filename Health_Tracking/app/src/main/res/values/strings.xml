@@ -37,4 +37,11 @@
     <string name="heartbeat">Heartbeat</string>
 
     <string name="email">Email</string>
+
+    <string name="Text">Bluetooth Status:</string>
+    <string name="on">Turn On</string>
+    <string name="off">Turn Off</string>
+    <string name="List">List Paired Devices</string>
+    <string name="Find">Search New Devices / Cancel</string>
+    <string name="ble_not_supported">BLE Not Supported</string>
 </resources>

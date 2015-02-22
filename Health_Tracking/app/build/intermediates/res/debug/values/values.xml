@@ -270,7 +270,10 @@
     <integer name="abc_max_action_buttons">2</integer>
     <!-- From: file:/C:/Users/localadmin/AndroidStudioProjects/Health_Tracking/app/src/main/res/values/strings.xml -->
     <eat-comment/>
+    <string name="Find">Search New Devices / Cancel</string>
+    <string name="List">List Paired Devices</string>
     <string name="Login">Login</string>
+    <string name="Text">Bluetooth Status:</string>
     <!-- From: file:/C:/Users/localadmin/AndroidStudioProjects/Health_Tracking/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment/>
     <string name="abc_action_bar_home_description">Navigate home</string>
@@ -302,6 +305,7 @@
     <string name="action_stop_service">Stop Service</string>
     <string name="app_name">Health_Tracking</string>
     <string name="attempts_left">Attempts Left:</string>
+    <string name="ble_not_supported">BLE Not Supported</string>
     <string name="diastolic">Diastolic</string>
     <string name="email">Email</string>
     <string name="empty_string"/>
@@ -310,6 +314,8 @@
     <string name="heartbeat">Heartbeat</string>
     <string name="hello_world">Hello world!</string>
     <string name="login_screen">Welcome Back</string>
+    <string name="off">Turn Off</string>
+    <string name="on">Turn On</string>
     <string name="password">Password</string>
     <string name="password_again">Password Again</string>
     <string name="record_time">Time</string>
