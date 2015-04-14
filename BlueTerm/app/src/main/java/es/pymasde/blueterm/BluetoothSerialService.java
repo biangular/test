@@ -20,6 +20,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.lang.reflect.Method;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.UUID;
 
 import android.bluetooth.BluetoothAdapter;
@@ -342,12 +344,19 @@ public class BluetoothSerialService {
             Log.i(TAG, "BEGIN mConnectedThread");
             byte[] buffer = new byte[1024];
             int bytes;
+            SimpleDateFormat format = new SimpleDateFormat("yyyyMMdd_HHmmss: ");
+            String currentDateTimeString;
 
             // Keep listening to the InputStream while connected
             while (true) {
                 try {
                     // Read from the InputStream
                     bytes = mmInStream.read(buffer);
+
+                    if (bytes > 0 && buffer[1] == 'u') {
+                        currentDateTimeString = format.format(new Date());
+                        mEmulatorView.write(currentDateTimeString.getBytes(), currentDateTimeString.length());
+                    }
 
                     mEmulatorView.write(buffer, bytes);
                     // Send the obtained bytes to the UI Activity
