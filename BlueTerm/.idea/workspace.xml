@@ -42,10 +42,10 @@
       <file leaf-file-name="BluetoothSerialService.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/es/pymasde/blueterm/BluetoothSerialService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3326613" vertical-offset="5581" max-vertical-offset="6664">
-              <caret line="355" column="45" selection-start-line="355" selection-start-column="45" selection-end-line="355" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.034274194" vertical-offset="5576" max-vertical-offset="6664">
+              <caret line="346" column="70" selection-start-line="346" selection-start-column="70" selection-end-line="346" selection-end-column="70" />
               <folding>
-                <element signature="e#0#13765#0" expanded="true" />
+                <element signature="e#0#13760#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -832,9 +832,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -995,6 +994,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1183,7 +1183,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="939" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1197,7 +1197,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992327" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32992327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32992327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1237,10 +1237,46 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/java/es/pymasde/blueterm/BluetoothSerialService.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6664">
+          <caret line="355" column="45" selection-start-line="355" selection-start-column="45" selection-end-line="355" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#13760#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/es/pymasde/blueterm/BlueTerm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="47158" max-vertical-offset="60877">
+          <caret line="2774" column="10" selection-start-line="2774" selection-start-column="10" selection-end-line="2774" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/es/pymasde/blueterm/BluetoothSerialService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6664">
+          <caret line="355" column="45" selection-start-line="355" selection-start-column="45" selection-end-line="355" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#13760#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/es/pymasde/blueterm/BlueTerm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="60877">
+          <caret line="2774" column="10" selection-start-line="2774" selection-start-column="10" selection-end-line="2774" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/es/pymasde/blueterm/BluetoothSerialService.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="5437" max-vertical-offset="6664">
           <caret line="346" column="77" selection-start-line="346" selection-start-column="77" selection-end-line="346" selection-end-column="77" />
           <folding>
-            <element signature="e#0#13765#0" expanded="true" />
+            <element signature="e#0#13760#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1258,7 +1294,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="3312" max-vertical-offset="6647">
           <caret line="221" column="24" selection-start-line="221" selection-start-column="18" selection-end-line="221" selection-end-column="24" />
           <folding>
-            <element signature="e#0#13765#0" expanded="true" />
+            <element signature="e#0#13760#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1276,7 +1312,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="5250" max-vertical-offset="6409">
           <caret line="357" column="21" selection-start-line="357" selection-start-column="21" selection-end-line="357" selection-end-column="21" />
           <folding>
-            <element signature="e#0#13765#0" expanded="true" />
+            <element signature="e#0#13760#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1294,7 +1330,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6409">
           <caret line="344" column="43" selection-start-line="344" selection-start-column="43" selection-end-line="344" selection-end-column="43" />
           <folding>
-            <element signature="e#0#13765#0" expanded="true" />
+            <element signature="e#0#13760#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1312,7 +1348,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="952" max-vertical-offset="6834">
           <caret line="56" column="15" selection-start-line="56" selection-start-column="15" selection-end-line="56" selection-end-column="15" />
           <folding>
-            <element signature="e#0#13765#0" expanded="true" />
+            <element signature="e#0#13760#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1330,7 +1366,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6834">
           <caret line="56" column="15" selection-start-line="56" selection-start-column="15" selection-end-line="56" selection-end-column="15" />
           <folding>
-            <element signature="e#0#13765#0" expanded="true" />
+            <element signature="e#0#13760#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1344,23 +1380,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/about.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/about.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/import-summary.txt">
@@ -1371,13 +1407,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/about.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/es/pymasde/blueterm/DeviceListActivity.java">
@@ -1418,10 +1454,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/es/pymasde/blueterm/BluetoothSerialService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3326613" vertical-offset="5581" max-vertical-offset="6664">
-          <caret line="355" column="45" selection-start-line="355" selection-start-column="45" selection-end-line="355" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.034274194" vertical-offset="5576" max-vertical-offset="6664">
+          <caret line="346" column="70" selection-start-line="346" selection-start-column="70" selection-end-line="346" selection-end-column="70" />
           <folding>
-            <element signature="e#0#13765#0" expanded="true" />
+            <element signature="e#0#13760#0" expanded="true" />
           </folding>
         </state>
       </provider>

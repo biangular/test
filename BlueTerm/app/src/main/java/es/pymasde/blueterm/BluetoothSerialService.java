@@ -344,7 +344,7 @@ public class BluetoothSerialService {
             Log.i(TAG, "BEGIN mConnectedThread");
             byte[] buffer = new byte[1024];
             int bytes;
-            SimpleDateFormat format = new SimpleDateFormat("yyyyMMdd_HHmmss: ");
+            SimpleDateFormat format = new SimpleDateFormat("HHmmss.SSS: ");
             String currentDateTimeString;
 
             // Keep listening to the InputStream while connected
