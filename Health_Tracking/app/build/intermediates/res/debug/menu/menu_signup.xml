@@ -32,6 +32,6 @@
         android:id="@id/action_settings"
         android:title="@string/action_settings"
         app:showAsAction="never"/>
-    
+
 </menu>
 <!-- From: file:/C:/Users/localadmin/AndroidStudioProjects/Health_Tracking/app/src/main/res/menu/menu_signup.xml -->

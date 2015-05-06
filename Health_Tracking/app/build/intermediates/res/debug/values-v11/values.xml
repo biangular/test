@@ -1,5 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- From: file:/C:/Users/localadmin/AndroidStudioProjects/Health_Tracking/app/src/main/res/values-v11/arrays.xml -->
+    <eat-comment/>
+    <string-array name="entries_color_preference">
+        <item>Black text on white</item>
+        <item>White text on black</item>
+        <item>White text on blue</item>  
+    </string-array>
+    <string-array name="entries_controlkey_preference">
+        <item>Jog ball</item>
+        <item>\@</item>
+        <item>Left Alt</item>
+        <item>Right Alt</item>
+        <item>Volume Down</item>
+        <item>Volume Up</item>        
+    </string-array>
+    <string-array name="entries_end_of_line_0A_preference">
+        <item>Do not change</item>
+        <item>Remove character</item>
+        <item>Replace by CR (0x0D)</item>
+        <item>Replace by CRLF (0x0D0A)</item>
+    </string-array>
+    <string-array name="entries_end_of_line_0D_preference">
+        <item>Do not change</item>
+        <item>Remove character</item>
+        <item>Replace by LF (0x0A)</item>
+        <item>Replace by CRLF (0x0D0A)</item>
+    </string-array>
+    <string-array name="entries_fontsize_preference">
+        <item>6 pt</item>
+        <item>7 pt</item>
+        <item>8 pt</item>
+        <item>9 pt</item>
+        <item>10 pt</item>
+        <item>12 pt</item>
+        <item>14 pt</item>
+        <item>16 pt</item>
+        <item>20 pt</item>
+    </string-array>
+    <string-array name="entries_screenorientation_preference">
+	   <item>Auto</item>
+	   <item>Portrait</item>
+	   <item>Landscape</item>  
+   </string-array>
+    <string-array name="entryvalues_color_preference">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>  
+    </string-array>
+    <string-array name="entryvalues_controlkey_preference">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="entryvalues_end_of_line_0A_preference">
+        <item>10</item>
+        <item>0</item>
+        <item>13</item>
+        <item>3338</item>  
+    </string-array>
+    <string-array name="entryvalues_end_of_line_0D_preference">
+        <item>13</item>
+        <item>0</item>
+        <item>10</item>
+        <item>3338</item>  
+    </string-array>
+    <string-array name="entryvalues_fontsize_preference">
+        <item>0</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>20</item>  
+    </string-array>
+    <string-array name="entryvalues_screenorientation_preference">
+	  <item>0</item>
+	  <item>1</item>
+	  <item>2</item>
+  </string-array>
+    <!-- From: file:/C:/Users/localadmin/AndroidStudioProjects/Health_Tracking/app/src/main/res/values-v11/attrs.xml -->
+    <eat-comment/>
+    <declare-styleable name="EmulatorView">
+    </declare-styleable>
     <!-- From: file:/C:/Users/localadmin/AndroidStudioProjects/Health_Tracking/app/src/main/res/values-v11/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="Theme.AppCompat.Light">

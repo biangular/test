@@ -12,6 +12,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -50,9 +51,25 @@
             android:label="@string/action_settings" >
         </activity>
         <activity
+            android:name="com.seedoo.health_tracking.DebugActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/action_debug" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name="com.seedoo.health_tracking.ShowRecActivity"
             android:label="@string/title_activity_show_rec" >
         </activity>
+        <activity
+            android:name="com.seedoo.health_tracking.DeviceListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/select_device"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name="com.seedoo.health_tracking.TermPreferences" />
     </application>
 
 </manifest>

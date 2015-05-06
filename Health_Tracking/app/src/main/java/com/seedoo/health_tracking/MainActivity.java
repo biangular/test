@@ -87,6 +87,7 @@ public class MainActivity extends ActionBarActivity implements OnClickListener {
 		    return true;
 		case R.id.action_settings:
 			startActivity(new Intent(this, SettingsActivity.class).addFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT));
+            return true;
 		}
 		
 		return super.onOptionsItemSelected(item);
