@@ -20,4 +20,8 @@ android {
 
 dependencies {
     compile 'com.android.support:appcompat-v7:19.1.0'
+    compile 'com.google.android.gms:play-services:7.3.0'
+    compile files('libs/activation.jar')
+    compile files('libs/additionnal.jar')
+    compile files('libs/mail.jar')
 }

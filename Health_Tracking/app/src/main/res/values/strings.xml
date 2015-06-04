@@ -142,4 +142,6 @@
     <string name="default_value_end_of_line_0D_preference">13</string>
     <string name="default_value_end_of_line_0A_preference">10</string>
     <string name="default_screenorientation_preference">0</string>
+    <string name="error_connect_failed">Failed to connect</string>
+    <string name="error_connect_lost">Connection lost</string>
 </resources>
